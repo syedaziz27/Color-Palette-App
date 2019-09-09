@@ -5,3 +5,24 @@
 .Palette-colors {
     height: 90%
 }
+
+.slider {
+    width: 340px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.rc-slider-handle {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+
+.rc-slider-rail {
+    height: 6px;
+}
+
+.rc-slider-track {
+    height: 6px;
+}
