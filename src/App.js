@@ -5,7 +5,7 @@ import { generatePalette } from "./colorHelper";
 
 class App extends Component {
   render() {
-    return <Palette {...seedColors[7]} />;
+    return <Palette palette={generatePalette(seedColors[4])} />;
   }
 }
 
